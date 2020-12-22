@@ -1,0 +1,46 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Ashley Brandon",
+      "phone": "+7865873294",
+      "mail": "ash.bradon@rb.com",
+      "team": "CoolCorp"
+    },
+    {
+      "id": "2",
+      "name": "Alex Edvard",
+      "phone": "+34658745894",
+      "mail": "alex.edvards@rb.com",
+      "team": "CoolCorp"
+    },
+    {
+      "id": "3",
+      "name": "Chris Dohal",
+      "phone": "+18634373265",
+      "mail": "chris.doh@rb.com",
+      "team": "CoolCorp"
+    },
+    {
+      "id": "4",
+      "name": "Tom Holland",
+      "phone": "+18634373265",
+      "mail": "chris.doh@rb.com",
+      "team": "CoolCorp"
+    },
+    {
+      "id": "5",
+      "name": "Chris Hemsworth",
+      "phone": "+126342234465",
+      "mail": "chris.thor@rb.com",
+      "team": "CoolCorp"
+    },
+    {
+      "id": "6",
+      "name": "Scarlett James",
+      "phone": "+58634373265",
+      "mail": "scarlet.james@rb.com",
+      "team": "CoolCorp"
+    }
+  ]
+}

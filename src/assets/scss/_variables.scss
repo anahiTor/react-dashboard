@@ -1,0 +1,51 @@
+// colors
+
+$primary-color: #5fc6cc;
+$primary-hover-color: #3fa5aa;
+$primary-active-color: #449092;
+
+$content-background-color: #deebec57;
+$dashboard-background-color: #ffffff;
+$dashboard-active-color: #f4f8f9 ;
+
+$font-white-color: #ffffff;
+$font-black-color: #000000;
+$font-dark-color: #414242;
+$font-light-color: #9c9fa6;
+$font-primary-color:  #5fc6cc;
+
+
+$icon-color: #5fc6cc;
+$icon-light-color: #9c9fa6;
+$icon-hover-color: #3fa5aa;
+$icon-active-color: #449092;
+
+$transparent-background: #1a1a1a8c;
+
+$scroolbar-color: #5fc6cc;
+$scroolbar-background-color: #f2edf3;
+$scroolbar-hover-color: #449092;
+
+$input-light-border-color: #9C9FA6;
+$input-light-hover-color: #449092;
+
+$primary-box-shadow-color: #a5b3b585;
+$primary-box-shadow-hover-color: #4d5f70;
+
+$success: #1bcfb4;
+$danger: #fe7c96;
+
+
+
+// shadows
+
+$cards-box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$cards-box-shadow-hover:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+$dropdown-box-shadow:0 10px 20px rgba(0, 0, 0, 0.19), 0px 2px 6px rgba(0, 0, 0, 0.23);
+
+$primary-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.8), 3px 3px 3px $primary-box-shadow-color;
+$primary-shadow-hover: -7px -7px 20px 0px rgba(255, 255, 255, 0.8), 3px 3px 3px $primary-box-shadow-hover-color;
+$primary-shadow-inset: inset -2px 2px 10px 1px $primary-box-shadow-color, inset 4px 1px 16px 0px $primary-box-shadow-color;
+$primary-shadow-inset-hover: inset -4px -4px 8px $primary-box-shadow-hover-color, inset 8px 8px 16px $primary-box-shadow-hover-color;
+
+// inset -2px 2px 10px 1px #a5b3b585, inset 4px 1px 16px 0px #b3c4c796

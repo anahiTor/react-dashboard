@@ -1,0 +1,29 @@
+@import './variables';
+
+.search-wrapper {
+  width: 90%;
+  min-height: 200px;
+  max-height: 400px;
+  position: absolute;
+  padding: 1em 1em;
+  z-index: 1;
+  top: 0em;
+  margin: 2em 2em 0 1.5em;
+  background-color:$dashboard-background-color;
+  border-radius: 25px;
+  box-shadow: $primary-shadow-hover;
+  overflow-y: auto;
+  .search-results{
+    padding: 1em 0;
+    border-bottom: 1px solid $primary-active-color;
+    .name {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: $primary-active-color
+    }
+    .phone {
+      font-weight: bold;
+      margin: .5em 0;
+    }
+  }
+}

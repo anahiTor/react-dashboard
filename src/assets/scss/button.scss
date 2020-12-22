@@ -1,0 +1,38 @@
+@import './variables';
+
+.custom-button {
+  cursor: pointer;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  background-color: #f0f5f7;
+  border-radius: 30px;
+  display: flex;
+  position: relative;
+  padding: 0 1em;
+  box-shadow: $primary-shadow;
+  border: 2px solid #f8fafa8c;
+  cursor: pointer;
+  pointer-events: all;
+  margin: 2em auto 0;
+  color: $font-dark-color;
+  position: relative;
+  font-size: 16px;
+  text-transform: capitalize;
+  &.invalid {
+    opacity: .3;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  i{
+    position: absolute;
+    right: 1em;
+    color: $icon-color;
+  }
+  &:focus{
+    outline: none;
+    box-shadow: $primary-shadow-inset;
+  }
+}

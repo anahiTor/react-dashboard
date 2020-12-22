@@ -1,0 +1,23 @@
+@import './variables';
+@import './input.scss';
+.login-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: $dashboard-background-color;
+  flex-direction: column;
+  h1 {
+    color: $font-light-color;
+    margin-bottom: 1em;
+  }
+  .login-form{
+    width: 25%;
+    background-color: $content-background-color;
+    height: 300px;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: $primary-shadow
+  }
+}
