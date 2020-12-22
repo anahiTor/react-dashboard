@@ -141,15 +141,15 @@
       }
 
       .avatar{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         background-color: $primary-hover-color;
         border: 1px solid $primary-active-color;
         margin-right: 1em;
         margin-left: 10%;
         color: $font-white-color;
-        font-size: 36px;
+        font-size: 25px;
         text-align: center;
         text-transform: uppercase;
         display: flex;
@@ -202,6 +202,7 @@
     .modal-content {
       width: 40%;
       height: 40%;
+      min-height: 500px;
       display: flex;
       background-color: $dashboard-active-color;
       border-radius: 10px;
@@ -210,10 +211,11 @@
       form {
         width: 100%;
         position: relative;
-        margin: 1em;
+        height: 100%;
+        margin: 2em 1em;
         .close {
           position: absolute;
-          top: -0.5em;
+          top: -1.5em;
           right: -0.5em;
           border: none;
           font-size: 20px;
