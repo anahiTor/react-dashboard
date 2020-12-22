@@ -8,6 +8,14 @@ then
 
 ### `npm start`
 
+
+for login use
+
+##`user@gmail.com` //not the best one I know
+
+for password
+
+## `user123`
 and have fun!
 
 Runs the app in the development mode.\
