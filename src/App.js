@@ -5,7 +5,6 @@ import Header from './components/Header';
 import Dashboard from './components/Dashboard';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
   Redirect
 } from "react-router-dom";
@@ -64,7 +63,6 @@ function App() {
             ? <Redirect to="/login" />
             : <Redirect to='/contatcs' />
           }
-          <Switch>
             {isLogedIn
             ? <div id="App">
                 <Dashboard />
@@ -87,7 +85,6 @@ function App() {
                 </Route>
               </div>
             }
-          </Switch>
         </Router>
     </Context.Provider>
 
