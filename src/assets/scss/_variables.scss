@@ -7,13 +7,12 @@ $primary-active-color: #449092;
 $content-background-color: #deebec57;
 $dashboard-background-color: #ffffff;
 $dashboard-active-color: #f4f8f9 ;
-
+$box-background: #F3F7F8;
 $font-white-color: #ffffff;
 $font-black-color: #000000;
 $font-dark-color: #414242;
 $font-light-color: #9c9fa6;
 $font-primary-color:  #5fc6cc;
-
 
 $icon-color: #5fc6cc;
 $icon-light-color: #9c9fa6;
@@ -42,6 +41,8 @@ $danger: #fe7c96;
 $cards-box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 $cards-box-shadow-hover:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 $dropdown-box-shadow:0 10px 20px rgba(0, 0, 0, 0.19), 0px 2px 6px rgba(0, 0, 0, 0.23);
+
+$box-shadow:1px 0px 20px 0px rgba(255, 255, 255, 0.8), 1px 0px 15px 1px #4D5F70;
 
 $primary-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.8), 3px 3px 3px $primary-box-shadow-color;
 $primary-shadow-hover: -7px -7px 20px 0px rgba(255, 255, 255, 0.8), 3px 3px 3px $primary-box-shadow-hover-color;

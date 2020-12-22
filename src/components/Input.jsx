@@ -24,7 +24,7 @@ export const Input = ({ type, title, rule, regex, changeValue, setValidation }) 
   return (
     <div className="custom-input-block">
       <label>
-        <input type={type} onChange={handleInput} className={classes} autoComplete='false' />
+        <input type={type} onChange={handleInput} className={classes} autoComplete='off' />
         <span className={isValid ? "i-mute-lab" : "i-mute-lab errLabel"}>{title}</span>
       </label>
       <div className={isValid ? 'hideErr' : 'showErr'}>{rule}</div>

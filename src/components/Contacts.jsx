@@ -83,7 +83,7 @@ export default function Contacts() {
             <i className={!field ? "fas fa-search" : ' fas fa-times'}
               onClick={() => { return field ? showField(false) : showField(true) }}>
             </i>
-            <input type='text' className='custom-button' id='search' placeholder='Search' onChange={searchContact} />
+            <input type='text' className='custom-button' id='search' placeholder='Search' onChange={searchContact} autoComplete='off' />
             <div className='search-wrapper' style={{ display: field ? 'block' : 'none' }}>
               {filteredData.map((c, i) => <SearchResults name={c.name} phone={c.phone} mail={c.mail} />)}
             </div>

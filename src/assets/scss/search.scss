@@ -1,17 +1,16 @@
 @import './variables';
 
 .search-wrapper {
-  width: 89%;
+  width: 87%;
   min-height: 200px;
   max-height: 400px;
   position: absolute;
   padding: 1em;
   z-index: 1;
-  top: 0em;
-  margin: 2em 2em 0 1.5em;
-  background-color:$dashboard-background-color;
-  border-radius: 25px;
-  box-shadow: $primary-shadow-hover;
+  left: 7.2%;
+  top: 50%;
+  background-color: $box-background;
+  box-shadow: $box-shadow;
   overflow-y: auto;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
