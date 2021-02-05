@@ -37,9 +37,9 @@ function App() {
 
     // the right way to delete contact, but I delete contacts from UI to escape db.json mutations
 
-    // const removeContact = id => {
-    //   setContacts(contacts.filter(contact => id !== contact.id))
-    // }
+    const removeContact = id => {
+      setContacts(contacts.filter(contact => id !== contact.id))
+    }
 
     const addContact = (data) => {
       setContacts([...contacts, data])
@@ -57,7 +57,7 @@ function App() {
       searchData()
     },[])
     return (
-    <Context.Provider value={{ contacts, addContact,setMutatedData}}>
+    <Context.Provider value={{ contacts, addContact,setMutatedData, removeContact}}>
         <Router>
           {!isLogedIn
             ? <Redirect to="/login" />

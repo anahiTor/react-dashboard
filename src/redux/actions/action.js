@@ -1,8 +1,8 @@
-import { MENU } from '../actiontypes';
+import { MENU } from "../actiontypes";
 
-const { SHOW_MENU } = MENU
+const { SHOW_MENU } = MENU;
 
 export function showMenu(data) {
-    // console.log(data);
-    return { type: SHOW_MENU, value: data }
+  // console.log(data);
+  return { type: SHOW_MENU, value: data };
 }

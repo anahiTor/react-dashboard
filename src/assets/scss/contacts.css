@@ -1,0 +1,368 @@
+.search-wrapper {
+  width: 87%;
+  min-height: 200px;
+  max-height: 400px;
+  position: absolute;
+  padding: 1em;
+  z-index: 1;
+  left: 7.2%;
+  top: 50%;
+  background-color: #F3F7F8;
+  -webkit-box-shadow: 1px 0px 20px 0px rgba(255, 255, 255, 0.8), 1px 0px 15px 1px #4D5F70;
+          box-shadow: 1px 0px 20px 0px rgba(255, 255, 255, 0.8), 1px 0px 15px 1px #4D5F70;
+  overflow-y: auto;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.search-wrapper .search-results {
+  padding: 1em 0;
+  border-bottom: 1px solid #449092;
+}
+
+.search-wrapper .search-results .name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #449092;
+}
+
+.search-wrapper .search-results .phone {
+  font-weight: bold;
+  margin: .5em 0;
+}
+
+.contacts-wrapper {
+  padding: 2em;
+}
+
+.contacts-wrapper * {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.contacts-wrapper > h2 {
+  color: #5fc6cc;
+}
+
+.contacts-wrapper h1 {
+  font-size: 2em;
+  color: #414242;
+  margin: 1em 0;
+  text-transform: uppercase;
+}
+
+.contacts-wrapper > form > div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contacts-wrapper > form > div:first-child button {
+  width: 20%;
+  margin: unset;
+}
+
+.contacts-wrapper > form > div:first-child .search-bar {
+  position: relative;
+  width: 30%;
+  z-index: 3;
+}
+
+.contacts-wrapper > form > div:first-child .search-bar .fas {
+  position: absolute;
+  top: 35%;
+  right: 3em;
+  color: #5fc6cc;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.contacts-wrapper > form > div:first-child .search-bar input#search {
+  margin-top: unset;
+  padding-right: 2.5em;
+}
+
+.contacts-wrapper > form > div:first-child .search-bar input#search::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contacts-wrapper > form > div:first-child .search-bar input#search:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contacts-wrapper > form > div:first-child .search-bar input#search::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contacts-wrapper > form > div:first-child .search-bar input#search::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contacts-wrapper .sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #414242;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 2em .5em -1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts-wrapper .sections > div {
+  width: 20%;
+  text-align: center;
+}
+
+.contacts-wrapper .sections .name {
+  width: 20%;
+  text-align: center;
+}
+
+.contacts-wrapper .tags .tag {
+  font-size: 11px;
+  background-color: #deebec57;
+}
+
+.contacts-wrapper .contact {
+  width: 100%;
+  padding: .5em;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: #ffffff;
+  margin: 2em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contacts-wrapper .contact > div {
+  width: 20%;
+  text-align: center;
+  position: relative;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contacts-wrapper .contact > div:after {
+  content: '';
+  height: 50px;
+  width: 1px;
+  position: absolute;
+  background-color: #9c9fa6;
+  right: 0;
+}
+
+.contacts-wrapper .contact > div:last-child::after {
+  display: none;
+}
+
+.contacts-wrapper .contact .editor {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  height: 40px;
+  top: 16px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #5fc6cc;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  color: #414242;
+  pointer-events: all;
+}
+
+.contacts-wrapper .contact .editor.value {
+  pointer-events: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+}
+
+.contacts-wrapper .contact .contact-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 20%;
+}
+
+.contacts-wrapper .contact .contact-name .editor {
+  width: 50%;
+  left: 40%;
+  pointer-events: all;
+  padding-left: 1em;
+}
+
+.contacts-wrapper .contact .contact-name .editor.value {
+  pointer-events: none;
+}
+
+.contacts-wrapper .contact .contact-name .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #3fa5aa;
+  border: 1px solid #449092;
+  margin-right: 1em;
+  margin-left: 10%;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 400;
+  -webkit-box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.8), 3px 3px 3px #a5b3b585;
+          box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.8), 3px 3px 3px #a5b3b585;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.contacts-wrapper .contact .contact-name .avatar:hover {
+  opacity: 1;
+}
+
+.contacts-wrapper .contact .contact-name .name {
+  color: #414242;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 50%;
+}
+
+.contacts-wrapper .contact .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20%;
+}
+
+.contacts-wrapper .contact .actions i {
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.contacts-wrapper .contact .actions i:hover {
+  color: #5fc6cc;
+}
+
+.contacts-wrapper .contact .email {
+  width: 25%;
+  color: #414242;
+  font-weight: 600;
+}
+
+.contacts-wrapper .modal-wrapper {
+  position: absolute;
+  background-color: #1a1a1a8c;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.contacts-wrapper .modal-wrapper .modal-content {
+  width: 40%;
+  height: 40%;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f4f8f9;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contacts-wrapper .modal-wrapper .modal-content form {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  margin: 2em 1em;
+}
+
+.contacts-wrapper .modal-wrapper .modal-content form .close {
+  position: absolute;
+  top: -1.5em;
+  right: -0.5em;
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: #9c9fa6;
+  -webkit-transition: 0.1s !important;
+  transition: 0.1s !important;
+  cursor: pointer;
+}
+
+.contacts-wrapper .modal-wrapper .modal-content form .close:hover {
+  color: #5fc6cc;
+}
+
+.contacts-wrapper .modal-wrapper .modal-content form .invalid {
+  opacity: .3;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=contacts.css.map */

@@ -1,0 +1,112 @@
+.custom-input-block {
+  position: relative;
+  margin: 25px 0;
+}
+
+.custom-input-block label {
+  width: 100%;
+}
+
+.custom-input-block .i-mute {
+  border: none;
+  border-bottom: 2px solid #9C9FA6;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  margin: 1em 0em;
+  width: 100%;
+  padding: .5em;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background-color: transparent;
+}
+
+.custom-input-block .i-mute:focus {
+  border-bottom: 2px solid #5fc6cc;
+  outline: none;
+}
+
+.custom-input-block .i-mute-lab {
+  -webkit-transition: .3s;
+  transition: .3s;
+  content: 'Name';
+  cursor: text;
+  position: absolute;
+  z-index: 1;
+  margin-top: -2.5em;
+  color: #9c9fa6;
+  margin-left: .2em;
+  font-size: 17px;
+}
+
+.custom-input-block input:focus, .custom-input-block input.has-value {
+  border-bottom: 2px solid #5fc6cc;
+}
+
+.custom-input-block input:focus + span, .custom-input-block input.has-value + span {
+  -webkit-transform: scale(0.9) translate(-0.2em, -2em);
+          transform: scale(0.9) translate(-0.2em, -2em);
+  color: #5fc6cc;
+}
+
+.custom-input-block .errInput {
+  border-bottom: 2px solid #fe7c96 !important;
+}
+
+.custom-input-block .errLabel {
+  color: #fe7c96 !important;
+}
+
+.custom-input-block .showErr, .custom-input-block .hideErr {
+  font-size: 10px;
+  color: #fe7c96;
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin-top: -1em;
+  opacity: 1;
+}
+
+.custom-input-block .hideErr {
+  opacity: 0;
+  margin-top: -1em;
+}
+
+.login-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffffff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-wrapper h1 {
+  color: #9c9fa6;
+  margin-bottom: 1em;
+}
+
+.login-wrapper .login-form {
+  width: 25%;
+  background-color: #deebec57;
+  height: 300px;
+  padding: 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.8), 3px 3px 3px #a5b3b585;
+          box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.8), 3px 3px 3px #a5b3b585;
+}
+/*# sourceMappingURL=login.css.map */
